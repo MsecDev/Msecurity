@@ -16,9 +16,9 @@ from influxdb import InfluxDBClient
 # Configure InfluxDB connection variables
 host = "localhost" # My Ubuntu NUC
 port = 8086 # default port
-user = "root" # the user/password created for the pi, with write access
-password = "root" 
-dbname = "PIR" # the database we created earlier
+user = "" # the user/password created for the pi, with write access
+password = "" 
+dbname = "" # the database we created earlier
 interval = 5 # Sample period in seconds
 # Create the InfluxDB client object
 client = InfluxDBClient(host, port, user, password, dbname)
