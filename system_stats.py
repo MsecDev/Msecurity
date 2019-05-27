@@ -8,8 +8,8 @@ from influxdb import InfluxDBClient
 # Configure InfluxDB connection variables
 host = "localhost" # My Ubuntu NUC
 port = 8086 # default port
-user = "root" # the user/password created for the pi, with write access
-password = "root" 
+user = "" # the user/password created for the pi, with write access
+password = "" 
 dbname = "system_stats" # the database we created earlier
 interval = 10 # Sample period in seconds
 # Create the InfluxDB client object
